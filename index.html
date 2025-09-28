@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>EVS Project on Weather Prediction</h1>
+        <p>This project offers an interactive platform for exploring real-time weather data and trends across various regions in India.</p>
+    </header>
+
+    <main class="container">
+        <h2>Weather Prediction</h2>
+        <p>Get real-time weather updates for any city in the world! Just enter the city name and check the current weather conditions, temperature, and more.</p>
+
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+
+        <div id="weatherDisplay" class="weather-info">
+            <h3 id="cityName"></h3>
+            <p id="temp"></p>
+            <p id="humidity"></p>
+            <p id="description"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 EVS Project on Weather Prediction. All rights reserved.</p>
+        <p>Created by Anuj and team as part of the EVS curriculum.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
